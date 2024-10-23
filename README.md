@@ -20,7 +20,7 @@ A biblioteca Swiper é uma ferramenta popular de ReactJS que permite criar carro
     - Performance: Ao registrar apenas os módulos que irá usar, o Swiper pode gerar um build mais enxuto, removendo módulos desnecessários.
     - Modularidade: Ajuda a gerenciar os recursos que o Swiper carrega, mantendo o projeto mais organizado.
 
-2.  Importar componentes react do Swiper: Elementos que irão compor o slide.
+2.  Importar componentes react do Swiper: Elementos que irão compor o slide.<br>
     `import { Swiper, SwiperSlide } from 'swiper/react';`
 
     Swiper é o container principal que envolve todo o carrossel. Ele é responsável por controlar e configurar o comportamento geral do Swiper, como o número de slides visíveis, espaçamento entre eles, ativação de navegação, paginação, e outras funcionalidades.
@@ -35,14 +35,14 @@ A biblioteca Swiper é uma ferramenta popular de ReactJS que permite criar carro
 
     SwiperSlide  é o componente individual que representa cada slide dentro do carrossel. Ele deve ser colocado como filho direto do componente Swiper. Cada instância de SwiperSlide corresponde a um slide no carrossel.
 
-    `<Swiper`
-    `  spaceBetween={30}`
-    `  slidesPerView={1}`
-    `  pagination={{ clickable: true }}`
-    `>`
-    `  <SwiperSlide><img src="image1.jpg" alt="Slide 1" /></SwiperSlide>`
-    `  <SwiperSlide><img src="image2.jpg" alt="Slide 2" /></SwiperSlide>`
-    `  <SwiperSlide><img src="image3.jpg" alt="Slide 3" /></SwiperSlide>`
+    `<Swiper`<br>
+    `  spaceBetween={30}`<br>
+    `  slidesPerView={1}`<br>
+    `  pagination={{ clickable: true }}`<br>
+    `>`<br>
+    `  <SwiperSlide><img src="image1.jpg" alt="Slide 1" /></SwiperSlide>`<br>
+    `  <SwiperSlide><img src="image2.jpg" alt="Slide 2" /></SwiperSlide>`<br>
+    `  <SwiperSlide><img src="image3.jpg" alt="Slide 3" /></SwiperSlide>`<br>
     `</Swiper>`
 
 Importante: Sempre verificar se para o uso de um determinado efeito é necessário realizar a importação do css, consultar a documentação.
