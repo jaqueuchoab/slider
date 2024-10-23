@@ -44,3 +44,5 @@ A biblioteca Swiper é uma ferramenta popular de ReactJS que permite criar carro
     `  <SwiperSlide><img src="image2.jpg" alt="Slide 2" /></SwiperSlide>`
     `  <SwiperSlide><img src="image3.jpg" alt="Slide 3" /></SwiperSlide>`
     `</Swiper>`
+
+Importante: Sempre verificar se para o uso de um determinado efeito é necessário realizar a importação do css, consultar a documentação.
